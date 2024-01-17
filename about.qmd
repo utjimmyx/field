@@ -1,5 +1,5 @@
 ---
-title: "Author"
+title: "Jimmy Xu"
 image: profile.png
 about:
   id: hero-heading
