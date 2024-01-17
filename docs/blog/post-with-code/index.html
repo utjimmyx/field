@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
+<meta name="author" content="Jimmy Xu">
 <meta name="dcterms.date" content="2022-10-25">
 
 <title>Hello :) - Scraping Yahoo Finance Data &amp; Conducting Time Series Analysis with R (R Studio) - A Meetup event I organized in 2023</title>
@@ -123,7 +123,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Scraping Yahoo Finance Data &amp; Conducting Time Series Analysis with R (R Studio) - A Meetup event I organized in 2023</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
                 <div class="quarto-category">code</div>
@@ -138,7 +138,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Jimmy Xu </p>
             </div>
     </div>
       
@@ -223,13 +223,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is a post with executable code.</p>
+<p>In today’s fast-paced and data-driven world, it’s crucial for businesses and individuals to make informed decisions based on reliable and up-to-date information. One way to obtain such information is by web scraping financial data from sources like Yahoo Finance and Google Trends, and conducting time series analysis to reveal insights and patterns that could be useful for decision-making.</p>
+<p>In this tutorial, we will explore the process of scraping financial data from Yahoo Finance and Google Trends using R and R Studio. We will begin by discussing the importance of web scraping in financial analysis and how it can be used to extract relevant data from the web. We will then move on to the specifics of scraping Yahoo Finance and Google Trends data and discuss the steps involved in presenting the results using plots.</p>
+<p>We will walk through a step-by-step approach, starting with the installation of the necessary R packages and libraries required for web scraping and data visualization. Next, we will demonstrate how to extract data from Yahoo Finance and Google Trends using R and R Studio, and how to clean, format and process the extracted data to present the results.</p>
+<p>The quantmod package in R is a powerful tool for financial quantitative modeling and analysis. Here are some short syntax examples to get you started:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quantmod)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: xts</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: zoo</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'zoo'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: TTR</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'lubridate'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getSymbols</span>(<span class="st">'AMZN'</span>, <span class="at">src =</span> <span class="st">'yahoo'</span>, </span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">from =</span> <span class="fu">Sys.Date</span>() <span class="sc">-</span> <span class="fu">years</span>(<span class="dv">4</span>), <span class="at">to =</span> <span class="fu">Sys.Date</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<pre><code>[1] "AMZN"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getSymbols</span>(<span class="st">'TSLA'</span>, <span class="at">src =</span> <span class="st">'yahoo'</span>, </span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">from =</span> <span class="fu">Sys.Date</span>() <span class="sc">-</span> <span class="fu">years</span>(<span class="dv">4</span>), <span class="at">to =</span> <span class="fu">Sys.Date</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "TSLA"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>stocks <span class="ot">&lt;-</span> <span class="fu">as.xts</span>(<span class="fu">data.frame</span>(<span class="at">AMZN =</span> AMZN<span class="sc">$</span><span class="st">"AMZN.Close"</span>,</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>                            <span class="at">TSLA =</span> TSLA<span class="sc">$</span><span class="st">"TSLA.Close"</span>))</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">as.zoo</span>(stocks),<span class="at">screens =</span> <span class="dv">1</span>,<span class="at">lty =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">3</span>),</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">col =</span> <span class="fu">c</span>(<span class="st">"red"</span>,<span class="st">"blue"</span>) ,<span class="at">xlab =</span> <span class="st">"date"</span>,<span class="at">ylab =</span> <span class="st">"Price"</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">"top"</span>,<span class="fu">c</span>(<span class="st">"AMZN"</span>,<span class="st">"TSLA"</span>),</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">lty =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">3</span>),<span class="at">col =</span> <span class="fu">c</span>(<span class="st">"red"</span>,<span class="st">"blue"</span>),<span class="at">cex =</span> <span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>These are just basic examples. The quantmod package offers a wide range of functions for financial modeling, technical analysis, and strategy development. Explore the documentation for more advanced usage.</p>
 
 
 
