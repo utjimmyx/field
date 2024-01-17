@@ -1,11 +1,14 @@
 ---
-title: "Author"
-image: profile1.png
+title: "Jimmy Xu"
+image: profile.png
 about:
   id: hero-heading
   template: trestles
   image-shape: rectangle
   links:
+    - icon: YouTube
+      text: YouTube
+      href: https://www.youtube.com/@jimmyxu4015
     - icon: twitter
       text: Twitter
       href: https://twitter.com/MKTJimmyxu
@@ -22,6 +25,7 @@ about:
 Hi, I am "Jimmy" Xu. I am a data analyst and a marketing consultant specialized in analytics, dashboard design, and AI applications.
 
 Explore my blog to learn more about marketing data analytics, using R for business analytics, R & Python programming, Tableau dashboard design, and a bit of everything in between.
+
 
 
 :::
