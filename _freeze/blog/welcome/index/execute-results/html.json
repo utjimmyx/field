@@ -1,0 +1,16 @@
+{
+  "hash": "f029189882221d3f5f04545d49fe73d8",
+  "result": {
+    "markdown": "---\ntitle: \"calendR package: create fully customizable ready-to-print monthly and yearly calendars in R\"\nauthor: \"Jimmy Xu\"\ndate: \"2024-01-16\"\ncategories: [news]\n---\n\n\nThis is the first post in my Quarto blog. Welcome!\n\n![](thumbnail.jpg)\n\n## A simple application\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(calendR)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n~~ Package calendR\nVisit https://r-coder.com/ for R tutorials ~~\n```\n:::\n\n```{.r .cell-code}\ncalendR() # Defaults to the current year\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\nThe package allows creating fully customized monthly and yearly calendars (you can also specify custom start and end dates). ",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

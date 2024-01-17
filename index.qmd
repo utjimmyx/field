@@ -1,0 +1,33 @@
+---
+title: "Dr. Jimmy Zhenning Xu"
+image: profile.png
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: YouTube
+      text: YouTube
+      href: https://www.youtube.com/@jimmyxu4015
+    - icon: Twitter
+      text: Twitter
+      href: https://twitter.com/MKTJimmyxu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/zhenning-jjimmy-xu/
+    - icon: github
+      text: Github
+      href: https://github.com/utjimmyx
+---
+
+::: {#hero-heading}
+
+Hello, I am **Jimmy Xu**.
+
+Hi, I am "Jimmy" Zhenning Xu. I am a data analyst and a marketing consultant specialized in analytics, dashboard design, and AI applications. Explore my blog to learn more about marketing data analytics, using R for business analytics, R & Python programming, Tableau dashboard design, and a bit of everything in between.
+
+As of 2024, I have authored over 20 peer-reviewed papers, which have been published in prestigious journals such as the Journal of Business Research, the Journal of Marketing Analytics, the Journal of Marketing Theory and Practice, the Journal of Macromarketing, Qualitative Market Research, an International Journal, Emerging Markets Finance, and Trade, the American Marketing Association (AMS) conference proceedings, the INFORMS conference proceedings, the DSI conference proceedings, the IEEE conference proceedings, and the ACM conference proceedings. Furthermore, he has actively contributed to various international conferences by serving on program committees.
+
+In this template you can find examples of using `listing` (grid, table, default) in **Projects, Talks, Blog**. Read more about lists [here](https://quarto.org/docs/websites/website-listings.html).
+
+:::

@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "talks/index.html#rstats",
+    "href": "talks/index.html#rstats",
+    "title": "Talks",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "talks/index.html#electronic-health-records",
+    "href": "talks/index.html#electronic-health-records",
+    "title": "Talks",
+    "section": "Electronic Health Records",
+    "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project_1/index.html",
+    "href": "projects/project_1/index.html",
+    "title": "Sample Talks - Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "",
+    "text": "Below is a summary of the workshop presentation I delivered at the ACME marketing conference in 2022."
+  },
+  {
+    "objectID": "projects/project_1/index.html#please-find-the-interactive-dashboard-you-will-be-trying-to-build-below",
+    "href": "projects/project_1/index.html#please-find-the-interactive-dashboard-you-will-be-trying-to-build-below",
+    "title": "Sample Talks - Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Please find the interactive dashboard you will be trying to build below",
+    "text": "Please find the interactive dashboard you will be trying to build below\nLink to the dashboard we will be building together - https://rpubs.com/utjimmyx/Flexdashboard_2021"
+  },
+  {
+    "objectID": "projects/project_1/index.html#examples-of-complex-dashboards",
+    "href": "projects/project_1/index.html#examples-of-complex-dashboards",
+    "title": "Sample Talks - Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Examples of complex dashboards",
+    "text": "Examples of complex dashboards\n\nHow California Uses Shiny in Production to Fight COVID-19 - https://www.rstudio.com/blog/using-shiny-in-production-to-monitor-covid-19/\nA simulation dashboard I built using ShinyR - https://utjimmyx.shinyapps.io/bullwhip2/"
+  },
+  {
+    "objectID": "projects/project_1/index.html#why-using-a-dashboard",
+    "href": "projects/project_1/index.html#why-using-a-dashboard",
+    "title": "Sample Talks - Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Why using a dashboard?",
+    "text": "Why using a dashboard?\n\nCool and easy way to create a dashboard without paying subscription fees\nUses R Studio (or R Studio Cloud; free) and R Markdown (free)"
+  },
+  {
+    "objectID": "projects/project_1/index.html#benifits",
+    "href": "projects/project_1/index.html#benifits",
+    "title": "Sample Talks - Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Benifits",
+    "text": "Benifits\n\nCSS stylization; htmlwidgets; base, lattice, and grid graphics; tabular data; gauges and value boxes; and text annotations\nrow and column-based layouts\nInteractive and easy to adapt for purposes.\n\nYou can see an introduction to Flexdashboard here its homepage. You should read the information and try it on your own at least once to know how to\n\ncreate a R Markdown document;\nformat a document (e.g. text alignment);\nconfigure the layout;\nand most importantly, Google search and use Stackoverflow or Stackoverexchange."
+  },
+  {
+    "objectID": "projects/pkg_1/index.html",
+    "href": "projects/pkg_1/index.html",
+    "title": "pkg_1",
+    "section": "",
+    "text": "This package does this."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Jimmy Zhenning Xu",
+    "section": "",
+    "text": "YouTube\n  \n  \n    \n     Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nHello, I am Jimmy Xu.\nHi, I am “Jimmy” Zhenning Xu. I am a data analyst and a marketing consultant specialized in analytics, dashboard design, and AI applications. Explore my blog to learn more about marketing data analytics, using R for business analytics, R & Python programming, Tableau dashboard design, and a bit of everything in between.\nAs of 2024, I have authored over 20 peer-reviewed papers, which have been published in prestigious journals such as the Journal of Business Research, the Journal of Marketing Analytics, the Journal of Marketing Theory and Practice, the Journal of Macromarketing, Qualitative Market Research, an International Journal, Emerging Markets Finance, and Trade, the American Marketing Association (AMS) conference proceedings, the INFORMS conference proceedings, the DSI conference proceedings, the IEEE conference proceedings, and the ACM conference proceedings. Furthermore, he has actively contributed to various international conferences by serving on program committees.\nIn this template you can find examples of using listing (grid, table, default) in Projects, Talks, Blog. Read more about lists here."
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "calendR package: create fully customizable ready-to-print monthly and yearly calendars in R",
+    "section": "",
+    "text": "This is the first post in my Quarto blog. Welcome!"
+  },
+  {
+    "objectID": "blog/welcome/index.html#a-simple-application",
+    "href": "blog/welcome/index.html#a-simple-application",
+    "title": "calendR package: create fully customizable ready-to-print monthly and yearly calendars in R",
+    "section": "A simple application",
+    "text": "A simple application\n\nlibrary(calendR)\n\n~~ Package calendR\nVisit https://r-coder.com/ for R tutorials ~~\n\ncalendR() # Defaults to the current year\n\n\n\n\nThe package allows creating fully customized monthly and yearly calendars (you can also specify custom start and end dates)."
+  },
+  {
+    "objectID": "about_template.html",
+    "href": "about_template.html",
+    "title": "About this template",
+    "section": "",
+    "text": "About this template\n\n\n\nThis page contains some elaborated background information about your workshop, or the instructors.\n\n\nThis is to demonstrate how to make a drop-down page from the navigation bar."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Author",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nHi, I am “Jimmy” Xu. I am a data analyst and a marketing consultant specialized in analytics, dashboard design, and AI applications.\nExplore my blog to learn more about marketing data analytics, using R for business analytics, R & Python programming, Tableau dashboard design, and a bit of everything in between."
+  },
+  {
+    "objectID": "blog/post-with-code/index.html",
+    "href": "blog/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Read more about Quarto blogs here.\n\n\n\n\n\n\n\n\n  \n\n\n\n\ncalendR package: create fully customizable ready-to-print monthly and yearly calendars in R\n\n\n\n\n\n\n\n\n\n\n\n\nJan 16, 2024\n\n\nJimmy Xu\n\n\n\n\n\n\n  \n\n\n\n\nScraping Yahoo Finance Data & Conducting Time Series Analysis with R (R Studio) - A Meetup event I organized in 2023\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nJimmy Xu\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#grid-listing",
+    "href": "projects/index.html#grid-listing",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#table-listing",
+    "href": "projects/index.html#table-listing",
+    "title": "Projects",
+    "section": "Table listing",
+    "text": "Table listing\nThis is an example of table listing.\n\nPackages\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\npkg_1\n\n\n\n\n\n\n\npkg_2\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/pkg_2/index.html",
+    "href": "projects/pkg_2/index.html",
+    "title": "pkg_2",
+    "section": "",
+    "text": "This package does this."
+  },
+  {
+    "objectID": "projects/project_2/index.html",
+    "href": "projects/project_2/index.html",
+    "title": "Sample project - Tableau Dashboard Design",
+    "section": "",
+    "text": "In these applied projects, I work on designing dashboards on sales, forecasting, trend analysis, segmentation, regression analysis, etc.\nPlease find the project link here: https://public.tableau.com/app/profile/zhenning.xu/vizzes"
+  },
+  {
+    "objectID": "talks/talk_1/index.html",
+    "href": "talks/talk_1/index.html",
+    "title": "Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "",
+    "text": "Below is a summary of the workshop presentation I delivered at the ACME marketing conference in 2022."
+  },
+  {
+    "objectID": "talks/talk_1/index.html#please-find-the-interactive-dashboard-you-will-be-trying-to-build-below",
+    "href": "talks/talk_1/index.html#please-find-the-interactive-dashboard-you-will-be-trying-to-build-below",
+    "title": "Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Please find the interactive dashboard you will be trying to build below",
+    "text": "Please find the interactive dashboard you will be trying to build below\nLink to the dashboard we will be building together - https://rpubs.com/utjimmyx/Flexdashboard_2021"
+  },
+  {
+    "objectID": "talks/talk_1/index.html#examples-of-complex-dashboards",
+    "href": "talks/talk_1/index.html#examples-of-complex-dashboards",
+    "title": "Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Examples of complex dashboards",
+    "text": "Examples of complex dashboards\n\nHow California Uses Shiny in Production to Fight COVID-19 - https://www.rstudio.com/blog/using-shiny-in-production-to-monitor-covid-19/\nA simulation dashboard I built using ShinyR - https://utjimmyx.shinyapps.io/bullwhip2/"
+  },
+  {
+    "objectID": "talks/talk_1/index.html#why-using-a-dashboard",
+    "href": "talks/talk_1/index.html#why-using-a-dashboard",
+    "title": "Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Why using a dashboard?",
+    "text": "Why using a dashboard?\n\nCool and easy way to create a dashboard without paying subscription fees\nUses R Studio (or R Studio Cloud; free) and R Markdown (free)"
+  },
+  {
+    "objectID": "talks/talk_1/index.html#benifits",
+    "href": "talks/talk_1/index.html#benifits",
+    "title": "Reproducible Interactive Dashboard Design Using R and R Markdown - ACME 2022 Workshop",
+    "section": "Benifits",
+    "text": "Benifits\n\nCSS stylization; htmlwidgets; base, lattice, and grid graphics; tabular data; gauges and value boxes; and text annotations\nrow and column-based layouts\nInteractive and easy to adapt for purposes.\n\nYou can see an introduction to Flexdashboard here its homepage. You should read the information and try it on your own at least once to know how to\n\ncreate a R Markdown document;\nformat a document (e.g. text alignment);\nconfigure the layout;\nand most importantly, Google search and use Stackoverflow or Stackoverexchange."
+  }
+]

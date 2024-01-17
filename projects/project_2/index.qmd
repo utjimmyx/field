@@ -1,0 +1,9 @@
+---
+title: "Sample project - Tableau Dashboard Design"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+In these applied projects, I work on designing dashboards on sales, forecasting, trend analysis, segmentation, regression analysis, etc. 
+
+Please find the project link here: https://public.tableau.com/app/profile/zhenning.xu/vizzes 

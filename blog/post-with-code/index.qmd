@@ -1,0 +1,37 @@
+---
+title: "Scraping Yahoo Finance Data & Conducting Time Series Analysis with R (R Studio) - A Meetup event I organized in 2023"
+author: "Jimmy Xu"
+date: "2022-10-25"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+In today’s fast-paced and data-driven world, it’s crucial for businesses and individuals to make informed decisions based on reliable and up-to-date information. One way to obtain such information is by web scraping financial data from sources like Yahoo Finance and Google Trends, and conducting time series analysis to reveal insights and patterns that could be useful for decision-making.
+
+In this tutorial, we will explore the process of scraping financial data from Yahoo Finance and Google Trends using R and R Studio. We will begin by discussing the importance of web scraping in financial analysis and how it can be used to extract relevant data from the web. We will then move on to the specifics of scraping Yahoo Finance and Google Trends data and discuss the steps involved in presenting the results using plots.
+
+We will walk through a step-by-step approach, starting with the installation of the necessary R packages and libraries required for web scraping and data visualization. Next, we will demonstrate how to extract data from Yahoo Finance and Google Trends using R and R Studio, and how to clean, format and process the extracted data to present the results.
+
+The quantmod package in R is a powerful tool for financial quantitative modeling and analysis. Here are some short syntax examples to get you started:
+
+```{r}
+
+library(quantmod)
+library(lubridate)
+getSymbols('AMZN', src = 'yahoo', 
+           from = Sys.Date() - years(4), to = Sys.Date())
+
+getSymbols('TSLA', src = 'yahoo', 
+           from = Sys.Date() - years(4), to = Sys.Date())
+
+stocks <- as.xts(data.frame(AMZN = AMZN$"AMZN.Close",
+                            TSLA = TSLA$"TSLA.Close"))
+
+plot(as.zoo(stocks),screens = 1,lty = c(1,3),
+     col = c("red","blue") ,xlab = "date",ylab = "Price")
+legend("top",c("AMZN","TSLA"),
+       lty = c(1,3),col = c("red","blue"),cex = 0.5)
+```
+
+
+These are just basic examples. The quantmod package offers a wide range of functions for financial modeling, technical analysis, and strategy development. Explore the documentation for more advanced usage.

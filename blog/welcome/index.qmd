@@ -1,0 +1,19 @@
+---
+title: "calendR package: create fully customizable ready-to-print monthly and yearly calendars in R"
+author: "Jimmy Xu"
+date: "2024-01-16"
+categories: [news]
+---
+
+This is the first post in my Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+## A simple application
+
+```{r}
+library(calendR)
+calendR() # Defaults to the current year
+```
+
+The package allows creating fully customized monthly and yearly calendars (you can also specify custom start and end dates). 
