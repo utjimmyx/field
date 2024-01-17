@@ -1,6 +1,6 @@
 ---
 title: "Jimmy Xu"
-image: profile.png
+image: profile1.png
 about:
   id: hero-heading
   template: trestles
