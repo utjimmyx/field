@@ -22,7 +22,7 @@ about:
 
 ::: {#hero-heading}
 
-Hi, I am "Jimmy" Xu. I am a data analyst and a marketing consultant specialized in analytics, dashboard design, and AI applications.
+Hi, I am "Jimmy" Xu. I am a data analyst and a marketing consultant specialized in analytics, dashboard design, and AI applications. 
 
 Explore my blog to learn more about marketing data analytics, using R for business analytics, R & Python programming, Tableau dashboard design, and a bit of everything in between.
 
