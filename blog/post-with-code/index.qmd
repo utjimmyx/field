@@ -1,7 +1,7 @@
 ---
 title: "Scraping Yahoo Finance Data & Conducting Time Series Analysis with R (R Studio) - A Meetup event I organized in 2023"
 author: "Jimmy Xu"
-date: "2022-10-25"
+date: "2024-01-15"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
